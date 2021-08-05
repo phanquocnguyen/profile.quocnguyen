@@ -1,4 +1,920 @@
-export const cats = [`
+<html>
+  <!-- CSS BLOCK BEGIN -->
+  <style type="text/css">
+    body,
+    a:hover {
+      cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur862.ani), url(http://cur.cursors-4u.net/cursors/cur-9/cur862.png), progress !important;
+    }
+  </style>
+  <head>
+      <script>
+      addEventListener("click", function() {
+    var
+          el = document.documentElement
+        , rfs =
+               el.requestFullScreen
+            || el.webkitRequestFullScreen
+            || el.mozRequestFullScreen
+    ;
+    rfs.call(el);
+});
+</script>
+  <body>
+    <style type="text/css">
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+      BODY {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+        SCROLLBAR-FACE-COLOR: #000000;
+        SCROLLBAR-HIGHLIGHT-COLOR: #000000;
+        SCROLLBAR-SHADOW-COLOR: #000000;
+        SCROLLBAR-BASE-COLOR: #000000;
+        background: #000000;
+      }
+
+      H1 {
+        color: #00FF00;
+        font-family: -moz-fixed;
+      }
+
+      #TEXTBOX {
+        width: 500px;
+        height: 257px;
+        border: 1px solid #000;
+        background-color: 1px solid transparent;
+        padding: 40px;
+        font-family: -moz-fixed;
+        font-size: 16px;
+        box-shadow: 0px 0px 5px 1px #00FF00;
+      }
+
+      .MATRIX-LEFT {
+        float: left;
+        overflow: hidden;
+        height: 1000px;
+        width: 280px;
+        background-image: url('http://puu.sh/6IN8U.gif');
+        background-repeat: repeat-y;
+      }
+
+      .MATRIX-RIGHT {
+        float: right;
+        overflow: hidden;
+        height: 1000px;
+        width: 280px;
+        background-image: url('http://puu.sh/6IN8U.gif');
+        background-repeat: repeat-y;
+      }
+
+      .TEXT {
+        color: #00FF00;
+        font-family: -moz-fixed;
+        font-size: 16px;
+      }
+
+      .TYPEWRITER {
+        color: #00FF00;
+        font-family: -moz-fixed;
+        font-size: 16px;
+        display: none
+      }
+
+      .SHOW {
+        z-index: 2;
+      }
+
+      .HIDE {
+        z-index: 1;
+      }
+    </style>
+    <!-- CSS BLOCK END -->
+    <!-- JAVASCRIPT BLOCK BEGIN -->
+    <script type="text/javascript">
+      // Anti-leach script    
+      var message = " Vler!!!";
+
+      function clickIE4() {
+        if (event.button == 2) {
+          alert(message);
+          return false;
+        }
+      }
+
+      function clickNS4(e) {
+        if (document.layers || document.getElementById && !document.all) {
+          if (e.which == 2 || e.which == 3) {
+            alert(message);
+            return false;
+          }
+        }
+      }
+      if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS4;
+      } else if (document.all && !document.getElementById) {
+        document.onmousedown = clickIE4;
+      }
+      document.oncontextmenu = new Function("alert(message);return false")
+    </script>
+    <!-- JAVASCRIPT BLOCK END -->
+    <script type="text/javascript"></script>
+    <body>
+      <!-- JAVASCRIPT BLOCK BEGIN -->
+      <script type="text/javascript">
+        new TypingText(document.getElementById("M1"));
+        new TypingText(document.getElementById("M2"));
+        new TypingText(document.getElementById("M3"));
+        new TypingText(document.getElementById("M4"));
+        new TypingText(document.getElementById("M5"));
+        new TypingText(document.getElementById("M6"));
+        new TypingText(document.getElementById("M7"));
+        new TypingText(document.getElementById("M8"));
+        setTimeout(function() {
+          document.getElementById("M1").style.display = 'inline';
+          TypingText.all[0].run();
+        }, 0);
+        setTimeout(function() {
+          document.getElementById("M2").style.display = 'inline';
+          TypingText.all[1].run();
+        }, 5000);
+        setTimeout(function() {
+          document.getElementById("M3").style.display = 'inline';
+          TypingText.all[2].run();
+        }, 10000);
+        setTimeout(function() {
+          document.getElementById("M4").style.display = 'inline';
+          TypingText.all[3].run();
+        }, 15000);
+        setTimeout(function() {
+          document.getElementById("M5").style.display = 'inline';
+          TypingText.all[4].run();
+        }, 20000);
+        setTimeout(function() {
+          document.getElementById("M6").style.display = 'inline';
+          TypingText.all[5].run();
+        }, 22000);
+        setTimeout(function() {
+          document.getElementById("M7").style.display = 'inline';
+          TypingText.all[6].run();
+        }, 22000);
+        setTimeout(function() {
+          document.getElementById("M8").style.display = 'inline';
+          TypingText.all[7].run();
+        }, 25000);
+      </script>
+      <!-- JAVASCRIPT BLOCK END -->
+      <style type='text/css'>
+        body,
+        td,
+        th {
+          font-family: consolas;
+          font-size: 18px;
+          color: #167c11;
+        }
+
+        body {
+          background-color: black;
+          overflow: hidden;
+          overflow-y: scroll;
+        }
+
+        #xbox {
+          width: 100%;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          height: 70px;
+          padding: 5px;
+          text-align: center;
+        }
+
+        #logo {
+          top: 0;
+          float: right;
+          z-index: 1;
+          opacity: 0.9;
+        }
+
+        a:link {
+          color: #00FF00;
+          text-decoration: none;
+        }
+
+        a:active {
+          color: #00FF00;
+          text-decoration: none;
+        }
+
+        a:visited {
+          color: #00FF00;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: #167c11;
+          text-decoration: none;
+        }
+      </style>
+      <script type="text/javascript"></script>
+      <html>
+        </head>
+        <body background=""></body>
+        <script>
+          < script type = "text/javascript" > function $i(id) {
+            return document.getElementById(id);
+          }
+
+          function $r(parent, child) {
+            (document.getElementById(parent)).removeChild(document.getElementById(child));
+          }
+
+          function $t(name) {
+            return document.getElementsByTagName(name);
+          }
+
+          function $c(code) {
+            return String.fromCharCode(code);
+          }
+
+          function $h(value) {
+            return ('0' + Math.max(0, Math.min(255, Math.round(value))).toString(16)).slice(-2);
+          }
+
+          function _i(id, value) {
+            $t('div')[id].innerHTML += value;
+          }
+
+          function _h(value) {
+            return !hires ? value : Math.round(value / 2);
+          }
+
+          function get_screen_size() {
+            var w = document.documentElement.clientWidth;
+            var h = document.documentElement.clientHeight;
+            return Array(w, h);
+          }
+          var url = document.location.href;
+          var flag = true;
+          var test = true;
+          var n = parseInt((url.indexOf('n=') != -1) ? url.substring(url.indexOf('n=') + 2, ((url.substring(url.indexOf('n=') + 2, url.length)).indexOf('&') != -1) ? url.indexOf('n=') + 2 + (url.substring(url.indexOf('n=') + 2, url.length)).indexOf('&') : url.length) : 512);
+          var w = 0;
+          var h = 0;
+          var x = 0;
+          var y = 0;
+          var z = 0;
+          var star_color_ratio = 0;
+          var star_x_save, star_y_save;
+          var star_ratio = 256;
+          var star_speed = 5;
+          var star_speed_save = 0;
+          var star = new Array(n);
+          var color;
+          var opacity = 0.1;
+          var cursor_x = 0;
+          var cursor_y = 0;
+          var mouse_x = 0;
+          var mouse_y = 0;
+          var canvas_x = 0;
+          var canvas_y = 0;
+          var canvas_w = 0;
+          var canvas_h = 0;
+          var context;
+          var key;
+          var ctrl;
+          var timeout;
+          var fps = 0;
+
+          function init() {
+            var a = 0;
+            for (var i = 0; i < n; i++) {
+              star[i] = new Array(5);
+              star[i][0] = Math.random() * w * 2 - x * 2;
+              star[i][1] = Math.random() * h * 2 - y * 2;
+              star[i][2] = Math.round(Math.random() * z);
+              star[i][3] = 0;
+              star[i][4] = 0;
+            }
+            var starfield = $i('starfield');
+            starfield.style.position = 'absolute';
+            starfield.width = w;
+            starfield.height = h;
+            context = starfield.getContext('2d');
+            //context.lineCap='round';
+            context.fillStyle = 'rgb(0,0,0)';
+            context.strokeStyle = 'rgb(255,255,255)';
+          }
+
+          function anim() {
+            mouse_x = cursor_x - x;
+            mouse_y = cursor_y - y;
+            context.fillRect(0, 0, w, h);
+            for (var i = 0; i < n; i++) {
+              test = true;
+              star_x_save = star[i][3];
+              star_y_save = star[i][4];
+              star[i][0] += mouse_x >> 4;
+              if (star[i][0] > x < < 1) {
+                star[i][0] -= w < < 1;
+                test = false;
+              }
+              if (star[i][0] < -x < < 1) {
+                star[i][0] += w << 1;
+                test = false;
+              }
+              star[i][1] += mouse_y >> 4;
+              if (star[i][1] > y < < 1) {
+                star[i][1] -= h < < 1;
+                test = false;
+              }
+              if (star[i][1] < -y < < 1) {
+                star[i][1] += h << 1;
+                test = false;
+              }
+              star[i][2] -= star_speed;
+              if (star[i][2] > z) {
+                star[i][2] -= z;
+                test = false;
+              }
+              if (star[i][2] < 0) {
+                star[i][2] += z;
+                test = false;
+              }
+              star[i][3] = x + (star[i][0] / star[i][2]) * star_ratio;
+              star[i][4] = y + (star[i][1] / star[i][2]) * star_ratio;
+              if (star_x_save > 0 && star_x_save < w && star_y_save > 0 && star_y_save < h && test) {
+                context.lineWidth = (1 - star_color_ratio * star[i][2]) * 2;
+                context.beginPath();
+                context.moveTo(star_x_save, star_y_save);
+                context.lineTo(star[i][3], star[i][4]);
+                context.stroke();
+                context.closePath();
+              }
+            }
+            timeout = setTimeout('anim()', fps);
+          }
+
+          function move(evt) {
+            evt = evt || event;
+            cursor_x = evt.pageX - canvas_x;
+            cursor_y = evt.pageY - canvas_y;
+          }
+
+          function key_manager(evt) {
+            evt = evt || event;
+            key = evt.which || evt.keyCode;
+            //ctrl=evt.ctrlKey;
+            switch (key) {
+              case 27:
+                flag = flag ? false : true;
+                if (flag) {
+                  timeout = setTimeout('anim()', fps);
+                } else {
+                  clearTimeout(timeout);
+                }
+                break;
+              case 32:
+                star_speed_save = (star_speed != 0) ? star_speed : star_speed_save;
+                star_speed = (star_speed != 0) ? 0 : star_speed_save;
+                break;
+              case 13:
+                context.fillStyle = 'rgba(0,0,0,' + opacity + ')';
+                break;
+            }
+            top.status = 'key=' + ((key < 100) ? '0' : '') + ((key < 10) ? '0' : '') + key;
+          }
+
+          function release() {
+            switch (key) {
+              case 13:
+                context.fillStyle = 'rgb(0,0,0)';
+                break;
+            }
+          }
+
+          function mouse_wheel(evt) {
+            evt = evt || event;
+            var delta = 0;
+            if (evt.wheelDelta) {
+              delta = evt.wheelDelta / 120;
+            } else if (evt.detail) {
+              delta = -evt.detail / 3;
+            }
+            star_speed += (delta >= 0) ? -0.2 : 0.2;
+            if (evt.preventDefault) evt.preventDefault();
+          }
+
+          function start() {
+            resize();
+            anim();
+          }
+
+          function resize() {
+            w = parseInt((url.indexOf('w=') != -1) ? url.substring(url.indexOf('w=') + 2, ((url.substring(url.indexOf('w=') + 2, url.length)).indexOf('&') != -1) ? url.indexOf('w=') + 2 + (url.substring(url.indexOf('w=') + 2, url.length)).indexOf('&') : url.length) : get_screen_size()[0]);
+            h = parseInt((url.indexOf('h=') != -1) ? url.substring(url.indexOf('h=') + 2, ((url.substring(url.indexOf('h=') + 2, url.length)).indexOf('&') != -1) ? url.indexOf('h=') + 2 + (url.substring(url.indexOf('h=') + 2, url.length)).indexOf('&') : url.length) : get_screen_size()[1]);
+            x = Math.round(w / 2);
+            y = Math.round(h / 2);
+            z = (w + h) / 2;
+            star_color_ratio = 1 / z;
+            cursor_x = x;
+            cursor_y = y;
+            init();
+          }
+          document.onmousemove = move;
+          document.onkeypress = key_manager;
+          document.onkeyup = release;
+          document.onmousewheel = mouse_wheel;
+          if (window.addEventListener) window.addEventListener('DOMMouseScroll', mouse_wheel, false); < script type = "text/javascript" >
+            // ------------------------------------------------------------------------------------
+            // Header text start..
+            // ------------------------------------------------------------------------------------
+            var theinHTML;
+          var thelessstr;
+          var ascSt = 22;
+          var ascEnd = 126;
+          var numoflines = 28;
+          var lines = new Array();
+          var intervalID = new Array();
+          var subIntervalID = new Array();
+          var subIntervalID2 = new Array();
+          var scH = screen.height - 220;
+          var scW = screen.width - 50;
+          window.onload = createlines;
+          // -------------------------------------------------------------------------------------
+          // Convert decimal to hex (for the colour)
+          var hD = "0123456789ABCDEF";
+
+          function d2h(d) {
+            var h = hD.substr(d & 15, 1);
+            while (d > 15) {
+              d >>= 4;
+              h = hD.substr(d & 15, 1) + h;
+            }
+            return h;
+          }
+          // -------------------------------------------------------------------------------------
+          // The line object      
+          function line(length, maxlength, chars, speed, x) {
+            this.length = length;
+            this.maxlength = maxlength;
+            this.chars = chars;
+            this.speed = speed;
+            this.x = x;
+          }
+          // -------------------------------------------------------------------------------------
+          // Creates the lines
+          function createlines() {
+            // create the lines as objects as defined above with length, characters, speed, x-value
+            for (var eachline = 0; eachline < numoflines; eachline++) {
+              lines[eachline] = new line(0, Math.round(Math.random() * 15 + 5), String.fromCharCode(Math.round(Math.random() * (ascEnd - ascSt) + ascSt)), Math.round(Math.random() * 400 + 100), eachline * 45);
+            }
+            // write the lines  
+            for (var writelines = 0; writelines < numoflines; writelines++) {
+              var newline = document.createElement("div");
+              newline.id = "char" + writelines;
+              newline.style.position = "absolute";
+              newline.style.top = "5px";
+              newline.style.left = lines[writelines].x + "px";
+              var firstchar = document.createElement("div");
+              var newcolor = d2h(Math.round(1 / (lines[writelines].maxlength + 1) * 255));
+              if (newcolor.length == 1) newcolor = "0" + newcolor;
+              firstchar.style.color = "#00" + newcolor + "00"
+              firstchar.innerHTML = lines[writelines].chars
+              newline.appendChild(firstchar);
+              document.body.appendChild(newline);
+            }
+            start();
+          }
+          // -------------------------------------------------------------------------------------
+          // Starts it moving & changing
+          function start() {
+            for (var pickastring = 0; pickastring < numoflines; pickastring++) {
+              intervalID[pickastring] = setInterval("addchars(" + pickastring + ")", lines[pickastring].speed);
+            }
+          }
+          // -------------------------------------------------------------------------------------
+          // Add random characters to the string (and a line break) 
+          // and make sure the last one is light
+          // once it gets to maxlength start moving down
+          function addchars(theline) {
+            if (lines[theline].length >= lines[theline].maxlength) {
+              clearInterval(intervalID[theline]);
+              subIntervalID[theline] = setInterval("movethestring(" + theline + ")", lines[theline].speed);
+            } else {
+              // Get a char (not " or ' or  or it'll get confused)
+              myRandomChar = String.fromCharCode(Math.round(Math.random() * (ascEnd - ascSt) + ascSt));
+              while (myRandomChar == "'" || myRandomChar == '"' || myRandomChar == "") myRandomChar = String.fromCharCode(Math.round(Math.random() * (ascEnd - ascSt) + ascSt));
+              // Make a new div for it (so we can change it's colour)
+              var newchar = document.createElement("div");
+              newchar.innerHTML = myRandomChar;
+              document.getElementById("char" + theline).appendChild(newchar);
+              // Colour it
+              var i;
+              for (i = 0; i <= lines[theline].length; i++) {
+                var newcolor = d2h(Math.round((i + 1) / (lines[theline].maxlength + 1) * 255));
+                newcolor = "" + newcolor;
+                if (newcolor.length == 1) newcolor = "0" + newcolor;
+                document.getElementById("char" + theline).childNodes[i].style.color = "#00" + newcolor + "00";
+                document.getElementById("char" + theline).childNodes[i].style.fontWeight = "normal";
+              }
+              document.getElementById("char" + theline).childNodes[i].style.color = "#99FF99";
+              document.getElementById("char" + theline).childNodes[i].style.fontWeight = "bold";
+              // Increase length by one
+              lines[theline].length++;
+            }
+          }
+          // -------------------------------------------------------------------------------------
+          // Moves the string (creates and destroys chars)
+          function movethestring(theline) {
+            var topstringnum = document.getElementById("char" + theline).offsetTop;
+            if ((topstringnum + (lines[theline].maxlength * 15)) >= scH) {
+              clearInterval(subIntervalID[theline]);
+              subIntervalID2[theline] = setInterval("clearletters(" + theline + ")", lines[theline].speed);
+            } else {
+              // create
+              myRandomChar = String.fromCharCode(Math.round(Math.random() * (ascEnd - ascSt) + ascSt));
+              while (myRandomChar == "'" || myRandomChar == '"' || myRandomChar == "") myRandomChar = String.fromCharCode(Math.round(Math.random() * (ascEnd - ascSt) + ascSt));
+              var newchar = document.createElement("div");
+              newchar.innerHTML = myRandomChar;
+              document.getElementById("char" + theline).appendChild(newchar);
+              // delete
+              document.getElementById("char" + theline).removeChild(document.getElementById("char" + theline).childNodes[0]);
+              // re-colour
+              var i;
+              for (i = 0; i < lines[theline].length; i++) {
+                var newcolor = d2h(Math.round((i + 1) / (lines[theline].maxlength + 1) * 255));
+                newcolor = "" + newcolor;
+                if (newcolor.length == 1) newcolor = "0" + newcolor;
+                document.getElementById("char" + theline).childNodes[i].style.color = "#00" + newcolor + "00";
+                document.getElementById("char" + theline).childNodes[i].style.fontWeight = "normal";
+              }
+              document.getElementById("char" + theline).childNodes[i].style.color = "#99FF99";
+              document.getElementById("char" + theline).childNodes[i].style.fontWeight = "bold";
+              // move
+              document.getElementById("char" + theline).style.top = (topstringnum + 15) + "px";
+            }
+          }
+          // -------------------------------------------------------------------------------------
+          // pretty much the opposite of addchars() 
+          function clearletters(theline) {
+            if (lines[theline].length <= -1) {
+              clearInterval(subIntervalID2[theline]);
+              document.getElementById("char" + theline).style.top = 0;
+              intervalID[theline] = setInterval("addchars(" + theline + ")", lines[theline].speed);
+            } else {
+              // Remove the first character
+              document.getElementById("char" + theline).removeChild(document.getElementById("char" + theline).childNodes[document.getElementById("char" + theline).childNodes.length - 1]);
+              // Move it down by 15px
+              var topstringnum = document.getElementById("char" + theline).offsetTop;
+              document.getElementById("char" + theline).style.top = topstringnum + 15 + "px";
+              // Decrease length by one
+              lines[theline].length--;
+            }
+          }
+        </script>
+        <!-- Cursor -->
+        <script type="text/javascript">
+          var colour = "#3CFD07";
+          var sparkles = 80;
+          var x = ox = 400;
+          var y = oy = 300;
+          var swide = 800;
+          var shigh = 600;
+          var sleft = sdown = 0;
+          var tiny = new Array();
+          var star = new Array();
+          var starv = new Array();
+          var starx = new Array();
+          var stary = new Array();
+          var tinyx = new Array();
+          var tinyy = new Array();
+          var tinyv = new Array();
+          window.onload = function() {
+            if (document.getElementById) {
+              var i, rats, rlef, rdow;
+              for (var i = 0; i < sparkles; i++) {
+                var rats = createDiv(3, 3);
+                rats.style.visibility = "hidden";
+                document.body.appendChild(tiny[i] = rats);
+                starv[i] = 0;
+                tinyv[i] = 0;
+                var rats = createDiv(5, 5);
+                rats.style.backgroundColor = "transparent";
+                rats.style.visibility = "hidden";
+                var rlef = createDiv(1, 5);
+                var rdow = createDiv(5, 1);
+                rats.appendChild(rlef);
+                rats.appendChild(rdow);
+                rlef.style.top = "2px";
+                rlef.style.left = "0px";
+                rdow.style.top = "0px";
+                rdow.style.left = "2px";
+                document.body.appendChild(star[i] = rats);
+              }
+              set_width();
+              sparkle();
+            }
+          }
+
+          function sparkle() {
+            var c;
+            if (x != ox || y != oy) {
+              ox = x;
+              oy = y;
+              for (c = 0; c < sparkles; c++)
+                if (!starv[c]) {
+                  star[c].style.left = (starx[c] = x) + "px";
+                  star[c].style.top = (stary[c] = y) + "px";
+                  star[c].style.clip = "rect(0px, 5px, 5px, 0px)";
+                  star[c].style.visibility = "visible";
+                  starv[c] = 50;
+                  break;
+                }
+            }
+            for (c = 0; c < sparkles; c++) {
+              if (starv[c]) update_star(c);
+              if (tinyv[c]) update_tiny(c);
+            }
+            setTimeout("sparkle()", 40);
+          }
+
+          function update_star(i) {
+            if (--starv[i] == 25) star[i].style.clip = "rect(1px, 4px, 4px, 1px)";
+            if (starv[i]) {
+              stary[i] += 1 + Math.random() * 3;
+              if (stary[i] < shigh + sdown) {
+                star[i].style.top = stary[i] + "px";
+                starx[i] += (i % 5 - 2) / 5;
+                star[i].style.left = starx[i] + "px";
+              } else {
+                star[i].style.visibility = "hidden";
+                starv[i] = 0;
+                return;
+              }
+            } else {
+              tinyv[i] = 50;
+              tiny[i].style.top = (tinyy[i] = stary[i]) + "px";
+              tiny[i].style.left = (tinyx[i] = starx[i]) + "px";
+              tiny[i].style.width = "2px";
+              tiny[i].style.height = "2px";
+              star[i].style.visibility = "hidden";
+              tiny[i].style.visibility = "visible"
+            }
+          }
+
+          function update_tiny(i) {
+            if (--tinyv[i] == 25) {
+              tiny[i].style.width = "1px";
+              tiny[i].style.height = "1px";
+            }
+            if (tinyv[i]) {
+              tinyy[i] += 1 + Math.random() * 3;
+              if (tinyy[i] < shigh + sdown) {
+                tiny[i].style.top = tinyy[i] + "px";
+                tinyx[i] += (i % 5 - 2) / 5;
+                tiny[i].style.left = tinyx[i] + "px";
+              } else {
+                tiny[i].style.visibility = "hidden";
+                tinyv[i] = 0;
+                return;
+              }
+            } else tiny[i].style.visibility = "hidden";
+          }
+          document.onmousemove = mouse;
+
+          function mouse(e) {
+            set_scroll();
+            y = (e) ? e.pageY : event.y + sdown;
+            x = (e) ? e.pageX : event.x + sleft;
+          }
+
+          function set_scroll() {
+            if (typeof(self.pageYOffset) == "number") {
+              sdown = self.pageYOffset;
+              sleft = self.pageXOffset;
+            } else if (document.body.scrollTop || document.body.scrollLeft) {
+              sdown = document.body.scrollTop;
+              sleft = document.body.scrollLeft;
+            } else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+              sleft = document.documentElement.scrollLeft;
+              sdown = document.documentElement.scrollTop;
+            } else {
+              sdown = 0;
+              sleft = 0;
+            }
+          }
+          window.onresize = set_width;
+
+          function set_width() {
+            if (typeof(self.innerWidth) == "number") {
+              swide = self.innerWidth;
+              shigh = self.innerHeight;
+            } else if (document.documentElement && document.documentElement.clientWidth) {
+              swide = document.documentElement.clientWidth;
+              shigh = document.documentElement.clientHeight;
+            } else if (document.body.clientWidth) {
+              swide = document.body.clientWidth;
+              shigh = document.body.clientHeight;
+            }
+          }
+
+          function createDiv(height, width) {
+            var div = document.createElement("div");
+            div.style.position = "absolute";
+            div.style.height = height + "px";
+            div.style.width = width + "px";
+            div.style.overflow = "hidden";
+            div.style.backgroundColor = colour;
+            return (div);
+          }
+        </script>
+        <font style="font-size: 8pt;" size="3" face="Impact">
+          <script type="text/javascript">
+            /*Important Function to blend the tabs in and out*/
+            function blendoff(idname) {
+              document.getElementById(idname).style.display = 'none';
+            }
+
+            function blendon(idname) {
+              document.getElementById(idname).style.display = 'block';
+            }
+          </script>
+          <script type="text/javascript">
+            /*Function for our Tabmenu with 4 Tabs*/
+            function swichtabs(wert) {
+              if (wert == '1') {
+                document.getElementById('tablink1').className = 'tab1 tabactive';
+                document.getElementById('tablink2').className = 'tab2';
+                document.getElementById('tablink3').className = 'tab3';
+                document.getElementById('tablink4').className = 'tab4';
+              } else if (wert == '2') {
+                document.getElementById('tablink1').className = 'tab1';
+                document.getElementById('tablink2').className = 'tab2 tabactive';
+                document.getElementById('tablink3').className = 'tab3';
+                document.getElementById('tablink4').className = 'tab4';
+              } else if (wert == '3') {
+                document.getElementById('tablink1').className = 'tab1';
+                document.getElementById('tablink2').className = 'tab2';
+                document.getElementById('tablink3').className = 'tab3 tabactive';
+                document.getElementById('tablink4').className = 'tab4';
+              } else if (wert == '4') {
+                document.getElementById('tablink1').className = 'tab1';
+                document.getElementById('tablink2').className = 'tab2';
+                document.getElementById('tablink3').className = 'tab3';
+                document.getElementById('tablink4').className = 'tab4 tabactive';
+              }
+          </script>
+          <style type="text/css">
+            /* Circle Text Styles */
+            #outerCircleText {
+              /* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
+              font-style: italic;
+              font-weight: bold;
+              font-family: 'comic sans ms', verdana, arial;
+              color: #000000;
+              /* End Optional */
+              /* Start Required - Do Not Edit */
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: 3000;
+              cursor: default;
+            }
+
+            #outerCircleText div {
+              position: relative;
+            }
+
+            #outerCircleText div div {
+              position: absolute;
+              top: 0;
+              left: 0;
+              text-align: center;
+            }
+
+            /* End Required */
+            /* End Circle Text Styles */
+          </style>
+          <script type="text/javascript">
+            ;
+            (function() {
+                var msg = "[ Your Site Had Been Dinh Huan Dz ]";
+                var size = 27;
+                var circleY = 0.75;
+                var circleX = 2;
+                var letter_spacing = 5;
+                var diameter = 10;
+                var rotation = 0.4;
+                var speed = 0.3;
+                ////////////////////// End ////////////////////// :)
+          </script>
+          <body onLoad="animate();start()" onresize="resize()" onorientationchange="resize()" onmousedown="context.fillStyle='rgba(0,0,0,'+opacity+')'" onmouseup="context.fillStyle='rgb(0,0,0)'">
+            <script language=JavaScript type=text/javascript>
+              <!--// Method-5 animation script (compressed)
+              /***** CAT JAVASCRIPT ******/
+              var frames = 31; // <---- total number of pictures in film
+              var delay = 90; // <---- delay after each frame
+              var color = "#FF0000"; // <---- Color of cat
+              var changecol = true; // <---- Randomly change color of cat? If true the cat will change colors if false the color of the cat will be the value of the color variable.
+              var move_cat = true; // <---- Move cat? If true the cat will move side to side. If false the cat will stay in one place.
+              var cat_fontsize = 10; // <---- In pixels
+              /***** initialize anim screen position (in pixels) *****/
+              var topp = 50; // <---- window position bottom
+              var left = (move_cat) ? -20 : -10; // <---- window position left
+              var width = 300; // <---- window width
+              var height = 187; // <---- window height
+              /***** initialize anim control variables *****/
+              var posi = 0; // <---- actual picture position (frame counter)
+              var prev = 1; // <---- previous picture number
+              var run = true; // <---- boolean : true (?????) or !true (?????)
+              /***** initialize style sheets ****/
+              document.write("<" + "style type='text/css'><" + "!-- ");
+              for (i = 0; i <= frames; i++) {
+                if (move_cat) {
+                  left = left + 2;
+                }
+                document.write("#cat" + i + " {position:absolute; color:" + color + "; font-size:" + cat_fontsize + "px; left:" + left + "%; top:" + topp + "px; width:" + width + "px; height:" + height + "px; z-index:" + i + "; visibility:hidden}");
+              }
+              document.write("--" + "><" + "/style>");
+              /******* animation module ******/
+              function change_color() {
+                var colors = new Array("#6C2DC7", "#00FFFF", "#00FF00", "#FFFF00", "#FF0000", "#FF00FF", "#1589FF", "#8D38C9", "#E3319D", "#6C2DC7", "#7E354D", "#736AFF", "#306754", "#E45E9D", "#000099", "#33CC00", "#25A0C5");
+                var randomnum = Math.floor(Math.random() * 17)
+                var random_color = colors[randomnum];
+                for (i = 0; i <= frames; i++) {
+                  if (i == 0) {} else {
+                    document.getElementById('cat' + i).style.color = random_color;
+                  }
+                }
+              }
+
+              function animate() {
+                posi = posi + 1;
+                if (posi > frames) {
+                  if (run) {
+                    if (changecol && move_cat) {
+                      setTimeout("animate2(posi-1, prev); change_color();", delay);
+                    } else if (changecol && !move_cat) {
+                      posi = 1;
+                      setTimeout("animate(); change_color();", delay);
+                    } else if (!changecol && move_cat) {
+                      setTimeout("animate2(posi-1, prev);", delay);
+                    } else if (!changecol && !move_cat) {
+                      posi = 1;
+                      setTimeout("animate();", delay);
+                    }
+                  }
+                } else {
+                  document.getElementById("cat" + prev).style.visibility = 'hidden';
+                  document.getElementById("cat" + posi).style.visibility = 'visible';
+                  prev = posi;
+                  if (run) setTimeout("animate()", delay);
+                }
+              }
+
+              function animate2(posi2, prev2) {
+                posi = posi2 - 1;
+                if (posi < 1) {
+                  if (run) {
+                    if (changecol) {
+                      setTimeout("animate(); change_color();", delay);
+                    } else {
+                      setTimeout("animate();", delay);
+                    }
+                  }
+                } else {
+                  document.getElementById("cat" + prev).style.visibility = 'hidden';
+                  document.getElementById("cat" + posi).style.visibility = 'visible';
+                  prev = posi;
+                  if (run) setTimeout("animate2(posi, prev-1)", delay);
+                }
+              }
+              //
+              -->
+            </SCRIPT>
+            <DIV id=cat1>
+              <PRE>
                                                                                                                          ,c,                                                                            
                                                                                                                      cARRRRRC,                                                                          
                                                         ,CRRRCc                   , , , , ,,,,,,,   ,,,,,,,      ,cRRRRRRRRRRc,                                                                         
@@ -66,8 +982,11 @@ export const cats = [`
                                                                                  ,cc,,,,,,,,,,,,,cCc,                                                                                                   
                                                                                  ,ccccc,,,,,,,ccTsc,                                                                                                    
                                                                                   ,TACCCCCCCCsc,,                                                                                                       
-                                                                                   ,,,,,,,,,,,                                                                                                                                                                                                                
-`,`
+                                                                                   ,,,,,,,,,,,                                                                                                          
+</PRE>
+            </DIV>
+            <DIV id=cat2>
+              <PRE>
                                                                                                                     ,cARCc                                                                              
                                                       ,sRRCc,                             ,                     ,,CRRRRRRRA,                                                                            
                                                      cRRRRRRRRRT,              ,,,,,,,,,,,,,,, ,,,,,,,,, ,   ,,ARRRRRRRRRATc                                                                            
@@ -134,8 +1053,11 @@ export const cats = [`
                                                                                   ,ccc,,,,,,,,,,,,cc,                                                                                                   
                                                                                  ,cTCCcc,,,,,,,,cCTc,                                                                                                   
                                                                                   ,,cccTCCTcsTCcc,,                                                                                                     
-                                                                                       ,,,,c,,,,                                                                                                        `,
-                                                                                        `
+                                                                                       ,,,,c,,,,                                                                                                        
+</PRE>
+            </DIV>
+            <DIV id=cat3>
+              <PRE>
                                                                                                                   cCAs,                                                                                 
                                                                                                               ,TRRRRRRRc,                                                                               
                                                    ,ARRRAc,                     , ,,,,,,,,,   ,,,,,        ,cTRRRRRRRRACc                                                                               
@@ -202,8 +1124,11 @@ export const cats = [`
                                                                                   ,cc,cscc,,,,,,,,,,,ccc,,                                                                                              
                                                                                        ,cTc,,,,,,,,,ccsc,                                                                                               
                                                                                         ,csccccccsTCcc,                                                                                                 
-                                                                                          ,,,,,,,,,,,                                                                                                    `,
-                                                                                        `
+                                                                                          ,,,,,,,,,,,                                                                                                                                            
+</PRE>
+            </DIV>
+            <DIV id=cat4>
+              <PRE>
                                                                                                                ,,,                                                                                      
                                                                                                            ,TARRRRC,                                                                                    
                                                                                                         ,cCRRRRRRRRT,                                                                                   
@@ -217,7 +1142,7 @@ export const cats = [`
                                                   cTcc,cccTRRRRRRRRRT,         ,,,   ,   ,,,,,,,,,,,,cccccc,,,,,,sc,                                                                                    
                                                   ,TCcc,,cccCRRRRTc,, ,,,,,         ,,,   ,,,,,,,,,,,,,,,,,,, ,,cc,                                                                                     
                                                    ,cCsc,ccccsAAcc,, , ,,,   ,   ,   ,,  ,,,,,,,,,,,,,,,,,,   ,cc,                                                                                      
-                                                    ,cTTcc,ccccccc,,,,,,,,, Bi €â‚¬nh cho €Â ,,,,,,, ,,,,,,,,,,,,,,,,,,cc,                                                                                       
+                                                    ,cTTcc,ccccccc,,,,,,,,, Bi`€â‚¬nh cho`€Â ,,,,,,, ,,,,,,,,,,,,,,,,,,cc,                                                                                       
                                                       ,cTTcccccscc,,,,,,,,,,,,   ,     ,,, ,,,,,,,,,,,,,,,,cccc,                                                                                        
                                                         ,cTTscccccc,,,,,,,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,                                                                                        
                                                           ,ccccccccccc,,,,,,,,,,,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,c,,                                                                                      
@@ -270,7 +1195,10 @@ export const cats = [`
                                                                               ,cTsccc,,,ccc,,           ,sCsccccc,,                                                                                     
                                                                                 cTCCCTcccc,,             ,,                                                                                             
                                                                                   ,,,,,,,                                                                                                               
-`,`
+</PRE>
+            </DIV>
+            <DIV id=cat5>
+              <PRE>
                                                                                                             ,sCc,                                                                                       
                                                                                                          ,CRRRRRA,                                                                                      
                                                                                                       ,CRRRRRRRATc,                                                                                     
@@ -336,8 +1264,11 @@ export const cats = [`
                                                                             ,cTc,,,,,,,,,,,,,,,,           ,cCTTTTsccscc,                                                                               
                                                                               ,ss,,,,,,,,,,cc,              ,,cccccccc,,                                                                                
                                                                                ,cscccccccccc,                                                                                                           
-                                                                                 ,c,,,,,c,,                                                                                                              `,
-                                                                                `
+                                                                                 ,c,,,,,c,,                                                                                                                                                        
+</PRE>
+            </DIV>
+            <DIV id=cat6>
+              <PRE>
                                                                                                             ,TRRRRT,                                                                                    
                                                ,TRRRs,,                            ,                    ,cARRRRRRRRc,                                                                                   
                                               ,ARRRRRRRRA,                ,,, ,,,,,,,,,,, ,,,,,   ,   ,ARRRRRRRRATTs,                                                                                   
@@ -400,8 +1331,11 @@ export const cats = [`
                                                                             ,csc,,,,,,,,,,,,,,,,,,,        cTTsTTTsTTTcc,,                                                                              
                                                                               ,cCc,,,,,,,,,,cc,,,           ,,,,,,,cc,,                                                                                 
                                                                                 ,Tcc,,cccsTCs,                                                                                                          
-                                                                                 ,ccc,,,c,,,,                                                                                                           `,
-                                                                                `
+                                                                                 ,ccc,,,c,,,,                                                                                                           
+</PRE>
+            </DIV>
+            <DIV id=cat7>
+              <PRE>
                                                    ,CRRT,                                                            ,,,                                                                                
                                                   cRRRRRRRCc,,               ,,,,,,,,,,,,,,,,,,,,,,,            ,cCRRRRRA,                                                                              
                                                   TRRRRRRRRRRRT,          ,,,,,,,,,,,,,,,,,,, ,,,,,,,,,,,    ,cARRRRRRRRRC,                                                                             
@@ -464,8 +1398,11 @@ export const cats = [`
                                                                             ,cTTcc,,,,,,,,,ccc,             ,sTTsTTTsscc,                                                                               
                                                                               ,cTTcc,,,cccccc,               ,ccccc,c,,                                                                                 
                                                                                 ,cTTccccc,,,                                                                                                            
-                                                                                  ,cc,,                                                                                                                  `,
-                                                                                `
+                                                                                  ,cc,,                                                                                                                                                              
+</PRE>
+            </DIV>
+            <DIV id=cat8>
+              <PRE>
                                                       ,CAc,,                                                              ,,                                                                            
                                                      cRRRRRRRAc,,              ,,,,,,,,,,,,,,,,,,,,,,,,,,            ,cCRRRRC,                                                                          
                                                      sRRRRRRRRRRRc,          ,,,,,,,,,,,,,,,,,,, ,,,,,,,,,,,     ,,cARRRRRRRAs,,                                                                        
@@ -530,8 +1467,11 @@ export const cats = [`
                                                                               ,ccccsTTTcc,      ,cTTc,,,,,,,,,,,,,                                                                                      
                                                                                  ,,,,cc,         ,cCCTcc,,,,,,,,                                                                                        
                                                                                                    ,,,ccTcc,,,                                                                                          
-                                                                                                       ,,,,,                                                                                            `,
-                                                                                                      `
+                                                                                                       ,,,,,                                                                                            
+</PRE>
+            </DIV>
+            <DIV id=cat9>
+              <PRE>
                                                            ,CAAc,                                                         cTAARc,                                                                       
                                                          ,cRRRRRRRCc                         ,,,                      ,TRRRRRRRRc,                                                                      
                                                          ,ARRRRRRRRRRAc,           ,,,,,,,,,,,,,,,, ,,,,,,,   , ,  ,CRRRRRRRRRRRT,,                                                                     
@@ -597,8 +1537,11 @@ export const cats = [`
                                                                                             ,cTccc,,,,,,,,,,c,                                                                                          
                                                                                              ,cscc,,,,,,,,c,,                                                                                           
                                                                                               ,cTTTsTCTcscc,                                                                                            
-                                                                                                ,ccc,,,,,,                                                                                               `,
-                                                                                              `
+                                                                                                ,ccc,,,,,,                                                                                                                                        
+</PRE>
+            </DIV>
+            <DIV id=cat10>
+              <PRE>
                                                                                                                            ,cACc                                                                        
                                                                                                                         ,sARRRRRc,                                                                      
                                                                cARAAc                                                ,,CRRRRRRRRTc,                                                                     
@@ -666,8 +1609,11 @@ export const cats = [`
                                                                                            ,cTcc,,,,,,,,,,c,,                                                                                           
                                                                                              ,csc,,,ccccccc,                                                                                            
                                                                                                ,cTTccc,,,,                                                                                              
-                                                                                                 ,,,                                                                                                     `,
-                                                                                                `
+                                                                                                 ,,,                                                                                                                                               
+</PRE>
+            </DIV>
+            <DIV id=cat11>
+              <PRE>
                                                                    ,CRRC,                                                    ,TRAT,                                                                     
                                                                  ,CRRRRRRRAc,                                             cARRRRRRRc,                                                                   
                                                                  cTCARRRRRRRAc,,   ,                             ,     ,cRRRRRRRRACT,                                                                   
@@ -732,8 +1678,11 @@ export const cats = [`
                                                                                            ,CCTcc,,,,,,,,,,cc,                                                                                          
                                                                                             ,cTc,,,,,,,cccc,                                                                                            
                                                                                              ,,ccccccccc,,,                                                                                             
-                                                                                               ,,csc,,,                                                                                                 `,
-                                                                                              `
+                                                                                               ,,csc,,,                                                                                                 
+</PRE>
+            </DIV>
+            <DIV id=cat12>
+              <PRE>
                                                                  ,cCATTc                                                                                                                                
                                                                ,cARRRRRRCc,                                                                                                                             
                                                                ,sTCARAAARRACc                                              ,cTCAC,                                                                      
@@ -800,8 +1749,11 @@ export const cats = [`
                                                                                            ,,cc,,,,,,,,,,,,,,,,                                                                                         
                                                                                              ccc,,,,,,,,,,,cc,                                                                                          
                                                                                              ,,cccccccccccc,,                                                                                           
-                                                                                               ,,cc,,,,,,,,                                                                                              `,
-                                                                                              `
+                                                                                               ,,cc,,,,,,,,                                                                                                                                         
+</PRE>
+            </DIV>
+            <DIV id=cat13>
+              <PRE>
                                                                 ,TRRRATc,                                                                                                                               
                                                                ,sRRRARRRACc,                                                                                                                            
                                                                ,cTTARAAARRRAc,                                                                                                                          
@@ -868,8 +1820,11 @@ export const cats = [`
                                                                                             ,cc,,,,,,,,,,,,,,,,                                                                                         
                                                                                              ccc,,,,,,,,,,,,,,                                                                                          
                                                                                              ,,cccccccccccc,,                                                                                           
-                                                                                               ,,cc,,,,,,,,                                                                                              `,
-                                                                                              `
+                                                                                               ,,cc,,,,,,,,                                                                                                                                     
+</PRE>
+            </DIV>
+            <DIV id=cat14>
+              <PRE>
                                                                     ,cc,                                                                                                                                
                                                                   ,CRRRRCsc                                                                                                                             
                                                                  ,cCARARRRRAc,                                                                                                                          
@@ -938,8 +1893,11 @@ export const cats = [`
                                                                                   ,,,,      ,cc,,,,,,,,,,,,,c,,                                                                                         
                                                                                              cc,,,,,,,,,,,,cc,                                                                                          
                                                                                              ,ccsccccccccc,,                                                                                            
-                                                                                               ,,,,,,,,,,,                                                                                              `,
-                                                                                              `
+                                                                                               ,,,,,,,,,,,                                                                                              
+</PRE>
+            </DIV>
+            <DIV id=cat15>
+              <PRE>
                                                                    ,,c,                                                                                                                                 
                                                                  ,cCRRRCc,                                                                                                                              
                                                                  ,CRRAARRRCc                                                                                                                            
@@ -1008,8 +1966,11 @@ export const cats = [`
                                                                                     ,cccTcc,,,,,,,,,,,,,,,,,c,                                                                                          
                                                                                        ,,ccTcc,,,,,,,,,,,ccc,,                                                                                          
                                                                                           ,,,,,cccccccccc,,                                                                                             
-                                                                                                ,,,,                                                                                                     `,
-                                                                                              `
+                                                                                                ,,,,                                                                                                                                              
+ </PRE>
+            </DIV>
+            <DIV id=cat16>
+              <PRE>
                                                                   ,cTc,                                                                                                                                 
                                                                  ,TRRRACTc,                                                                                                                             
                                                                 ,cCRRAARRRAT,                                              ,,,                                                                          
@@ -1079,8 +2040,11 @@ export const cats = [`
                                                                                        ,cscc,,,,,,,,,,,cc,                                                                                              
                                                                                         ,cTTccc,,,,,,,,                                                                                                 
                                                                                           ,,ccssTcc,,                                                                                                   
-                                                                                              ,,,c,,,                                                                                                    `,
-                                                                                            `
+                                                                                              ,,,c,,,                                                                                                                                            
+</PRE>
+            </DIV>
+            <DIV id=cat17>
+              <PRE>
                                                                            ,CAAc,                                                                                                                       
                                                                           cRRRRRACc,                                                                                                                    
                                                                          ,cTCARAARRAc                                                                                                                   
@@ -1151,8 +2115,11 @@ export const cats = [`
                                                                                             ,,,cccsTcc,,,,,,,,,                                                                                         
                                                                                                   ,,csTsc,,,,,,,                                                                                        
                                                                                                      ,,ccsTCTTc,                                                                                        
-                                                                                                          ,,,,,                                                                                         `,
-                                                                                                        `
+                                                                                                          ,,,,,                                                                                         
+</PRE>
+            </DIV>
+            <DIV id=cat18>
+              <PRE>
                                                                                       ccc,                                                                                                              
                                                                                     ,CRRRT,                                                                                                             
                                                                                    ,TRRARRAc,                                                                                                           
@@ -1221,8 +2188,11 @@ export const cats = [`
                                                                               ,TCARATCCCccTATccT,  ,csc,,,,,,,,,,,,,,,,                                                                                 
                                                                                ,CRRCccTcccTTTTc,   ,cTCTTcscccccccccTc,                                                                                 
                                                                                  ,CRRRRRTTRRAc,      ,,,,,,,,,,,,,,,,,                                                                                  
-                                                                                   ,,,,,,,,,                                                                                                             `,
-                                                                                  `
+                                                                                   ,,,,,,,,,                                                                                                                                                     
+</PRE>
+            </div>
+            <DIV id=cat19>
+              <PRE>
                                                                                                ,,,                                                                                                      
                                                                                               ,ARC,                                                                                                     
                                                                                              ,CRRAc,                                                                                                    
@@ -1292,8 +2262,11 @@ export const cats = [`
                                                                                   ccccc,c,ccccsc,    ,cc,,,,,,,,,,,,ccc,                                                                                
                                                                                  ,sTcccTTTCRAc,      ,cTTTscccccccccccc,                                                                                
                                                                                   csscARRRRCc          ,,,,,,,,,,,,,                                                                                    
-                                                                                   ,cc,cc,                                                                                                               `,
-                                                                                  `
+                                                                                   ,cc,cc,                                                                                                                                                        
+</PRE>
+            </DIV>
+            <DIV id=cat20>
+              <PRE>
                                                                                                                            ,                                                                            
                                                                                                                       ,,,,,,                                                                            
                                                                                                                    ,,,,,,,,,                                                                            
@@ -1362,8 +2335,11 @@ export const cats = [`
                                                                                  ,ccccccccccTTT,,    ,cc,,,,,,, ,,,,,cc,,                                                                               
                                                                                 ,ccccTCAAATcc,,      ,,TTTccccccccccccc,                                                                                
                                                                                  ,cARRRCCc,            ,,,,,,,c,,,,,,                                                                                   
-                                                                                  ,cc,                                                                                                                   `,
-                                                                                `
+                                                                                  ,cc,                                                                                                                                                             
+</PRE>
+            </DIV>
+            <DIV id=cat21>
+              <PRE>
                                                                                              ,,,,,                                                                                                      
                                                                                   ,,,,,,,,,,,,,,,,,,,,,,                                                                                                
                                                                      ,           ,,,,,,,,,,,,, ,,,,,,,,,,,,,,,  ,,,,,,                                                                                  
@@ -1426,8 +2402,11 @@ export const cats = [`
                                                                               ,cc,c,c,ccccccTc,    ,cTTc,,,,, , ,,,,,,c,                                                                                
                                                                               ,ccccccTTccTTc,,       ,cCTc,,,,,,,,,,,,,                                                                                 
                                                                                ,cCAARRRsc,,            ,ccccccccc,,,,                                                                                   
-                                                                                 ,sCCTc,                  ,,,,,,,,                                                                                      `,
-                                                                                `
+                                                                                 ,sCCTc,                  ,,,,,,,,                                                                                      
+</PRE>
+            </DIV>
+            <DIV id=cat22>
+              <PRE>
                                                            ,,,,,                                                                                                                                        
                                                           ,,,,,,,,,,,,                                                                                                                                  
                                                            ,,,,,,,,,,,,,,,        ,,,,,,,,,, ,                                                                                                          
@@ -1493,8 +2472,11 @@ export const cats = [`
                                                                                  ,cccccc,c,,cCCT, ,cTTTTsccccc,ccc,,,                                                                                   
                                                                                   ,cTcsCACATTAC,    ,,,,ccccTcc,,,,                                                                                     
                                                                                    ,,sCRRRCc,              ,,,                                                                                          
-                                                                                     ,,,,                                                                                                                `,
-                                                                                    `
+                                                                                     ,,,,                                                                                                                                                           
+</PRE>
+            </DIV>
+            <DIV id=cat23>
+              <PRE>
                                                                        ,,,,                                                                                                                             
                                                                        ,,c,,,,                                                                                                                          
                                                                          ,,,,,,,,                                                                                                                       
@@ -1567,8 +2549,11 @@ export const cats = [`
                                                                                       ,TcTAACTTCCRRA,                                                                                                   
                                                                                       ,CTsARRRRRRRC,                                                                                                    
                                                                                        ,TCTCAACTc,                                                                                                      
-                                                                                        ,,,                                                                                                             `,
-                                                                                      `
+                                                                                        ,,,                                                                                                             
+</PRE>
+            </DIV>
+            <DIV id=cat24>
+              <PRE>
                                                                                 ,sCc                                                                                                                    
                                                                                 ,RRT,,,                                                                                                                 
                                                                                 ,TRT,,,,,                                                                                                               
@@ -1640,8 +2625,11 @@ export const cats = [`
                                                                                          ,ccccccccccTTCAT,,,,                                                                                           
                                                                                          ,csccsAARRRc,                                                                                                  
                                                                                          ,TCTcRRRRC,                                                                                                    
-                                                                                          ,csccc,                                                                                                        `,
-                                                                                        `
+                                                                                          ,csccc,                                                                                                                                                  
+</PRE>
+            </DIV>
+            <DIV id=cat25>
+              <PRE>
                                                                                        ,Tc                                                                                                              
                                                                                      ,cRRRc,                                                                                                            
                                                                                     cARRRRRc,                                                                                                           
@@ -1714,8 +2702,11 @@ export const cats = [`
                                                                                           cscccccsTCc,                                                                                                  
                                                                                          ,sTssTTRRs,                                                                                                    
                                                                                           ,TAATcc,                                                                                                      
-                                                                                           ,,,,                                                                                                          `,
-                                                                                          `
+                                                                                           ,,,,                                                                                                                                                   
+</PRE>
+            </DIV>
+            <DIV id=cat26>
+              <PRE>
                                                                                                         ,,                                                                                              
                                                                                                     ,cCRRRc,                                                                                            
                                                                                                  ,,cARRRRRRC,                                                                                           
@@ -1789,8 +2780,12 @@ export const cats = [`
                                                                                               ,,cTcc,,,c,,ccTCc,                                                                                        
                                                                                                 ,TTcc,,cccTTc,,                                                                                         
                                                                                                  ,,sTccsCCc,                                                                                            
-                                                                                                    ,,TCT,                                                                                              `,
-                                                                                                  `
+                                                                                                    ,,TCT,                                                                                              
+                                                                                                       ,                                                                                                                                          
+</PRE>
+            </DIV>
+            <DIV id=cat27>
+              <PRE>
                                                                                                                      ,ccc,                                                                              
                                                                                                                   ,cTRRRRRT,                                                                            
                                                                                                                 ,TRRRRRRRRRT,                                                                           
@@ -1866,8 +2861,11 @@ export const cats = [`
                                                                                                  ,cCc,,,,,,,,,,cTc,                                                                                     
                                                                                                   ,CCCTscc,,,ccc,                                                                                       
                                                                                                    ,,,,cccsTTc,                                                                                         
-                                                                                                           ,,                                                                                           `,
-                                                                                                          `
+                                                                                                           ,,                                                                                           
+</PRE>
+            </DIV>
+            <DIV id=cat28>
+              <PRE>
                                                                                                                           ,ccsCAT,                                                                      
                                                                                                                         ,cRRRRRRRA,,                                                                    
                                                            ,ccc,,                                                ,,  ,sCRRRRRRRACTc,                                                                    
@@ -1942,8 +2940,11 @@ export const cats = [`
                                                                                                    ,cc,,,,,,,,,,,,cc,                                                                                   
                                                                                                     ,,,,,cc,c,cccc,                                                                                     
                                                                                                      ,CCccccccccc,                                                                                      
-                                                                                                      ,,,                                                                                               `,
-                                                                                                    `
+                                                                                                      ,,,                                                                                               
+</PRE>
+            </DIV>
+            <DIV id=cat29>
+              <PRE>
                                                                                                                                 ,                                                                       
                                                                                                                             ,cTARRT,                                                                    
                                                                                                                          ,cARRRRRRRC,                                                                   
@@ -2019,8 +3020,11 @@ export const cats = [`
                                                                                                   ,ccc,,,,,,,,,,,,cTc,                                                                                  
                                                                                                    ,CCscccc,,,,ccTc,,                                                                                   
                                                                                                    ,,ccTTTTCCACTc,                                                                                      
-                                                                                                          ,,,,,                                                                                          `,
-                                                                                                        `
+                                                                                                          ,,,,,                                                                                                                                   
+</PRE>
+            </DIV>
+            <DIV id=cat30>
+              <PRE>
                                                                                                                            ccTTc,                                                                       
                                                                                                                         ,cRRRRRRc,                                                                      
                                                                                                                      ,cARRRRRRRRsc,                                                                     
@@ -2095,8 +3099,11 @@ export const cats = [`
                                                                                 ,cccccccccc,      cTscc,,,,,,,,,,,,ccc,                                                                                 
                                                                                         ,,        ,cTCccc,,,,,,ccTCCCc,                                                                                 
                                                                                                    ,cTCCCCTTTTCTTc,,,                                                                                   
-                                                                                                     ,,,,,,ccc,,                                                                                         `,
-                                                                                                    `
+                                                                                                     ,,,,,,ccc,,                                                                                                                                  
+</PRE>
+            </DIV>
+            <DIV id=cat31>
+              <PRE>
                                                                                                                              ,,                                                                         
                                                                                                                           ,cCAAT,                                                                       
                                                                                                                        ,TARRRRRRTc,                                                                     
@@ -2171,4 +3178,217 @@ export const cats = [`
                                                                                                   ,cscc,,,,,,,,,,,cTCc,                                                                                 
                                                                                                    cCATTcccc,ccsTTTTc,                                                                                  
                                                                                                    ,,,ccccTTCTcc,,,                                                                                     
-                                                                                                           ,,,                                                                                          `]
+                                                                                                           ,,,                                                                                          
+</PRE>
+            </DIV>
+            </script>
+            </script>
+            <style type="text/css">
+              /* Circle Text Styles */
+              #outerCircleText {
+                /* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
+                font-style: italic;
+                font-weight: bold;
+                font-family: 'comic sans ms', verdana, arial;
+                color: #00FF00;
+                /* End Optional */
+                /* Start Required - Do Not Edit */
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 3000;
+                cursor: default;
+              }
+
+              #outerCircleText div {
+                position: relative;
+              }
+
+              #outerCircleText div div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+              }
+
+              /* End Required */
+              /* End Circle Text Styles */
+            </style>
+            <script type="text/javascript">
+              ;
+              (function() {
+                var msg = "defaced By  - Tuan Deptry";
+                var size = 24;
+                var circleY = 0.75;
+                var circleX = 2;
+                var letter_spacing = 5;
+                var diameter = 10;
+                var rotation = 0.4;
+                var speed = 0.8;
+                var colour = "#00FF00";
+                ////////////////////// Stop Editing //////////////////////
+                if (!window.addEventListener && !window.attachEvent || !document.createElement) return;
+                msg = msg.split('');
+                var n = msg.length - 1,
+                  a = Math.round(size * diameter * 0.208333),
+                  currStep = 20,
+                  ymouse = a * circleY + 20,
+                  xmouse = a * circleX + 20,
+                  y = [],
+                  x = [],
+                  Y = [],
+                  X = [],
+                  o = document.createElement('div'),
+                  oi = document.createElement('div'),
+                  b = document.compatMode && document.compatMode != "BackCompat" ? document.documentElement : document.body,
+                  mouse = disabled;
+                mouse = function(e) {
+                    e = e || window.event;
+                    ymouse = !isNaN(e.pageY) ? e.pageY : e.clientY; // y-position
+                    xmouse = !isNaN(e.pageX) ? e.pageX : e.clientX; // x-position
+                  },
+                  makecircle = function() { // rotation/positioning
+                    if (init.nopy) {
+                      o.style.top = (b || document.body).scrollTop + 'px';
+                      o.style.left = (b || document.body).scrollLeft + 'px';
+                    };
+                    currStep -= rotation;
+                    for (var d, i = n; i > -1; --i) { // makes the circle
+                      d = document.getElementById('iemsg' + i).style;
+                      d.top = Math.round(y[i] + a * Math.sin((currStep + i) / letter_spacing) * circleY - 15) + 'px';
+                      d.left = Math.round(x[i] + a * Math.cos((currStep + i) / letter_spacing) * circleX) + 'px';
+                    };
+                  },
+                  drag = function() { // makes the resistance
+                    y[0] = Y[0] += (ymouse - Y[0]) * speed;
+                    x[0] = X[0] += (xmouse - 20 - X[0]) * speed;
+                    for (var i = n; i > 0; --i) {
+                      y[i] = Y[i] += (y[i - 1] - Y[i]) * speed;
+                      x[i] = X[i] += (x[i - 1] - X[i]) * speed;
+                    };
+                    makecircle();
+                  },
+                  init = function() { // appends message divs, & sets initial values for positioning arrays
+                    if (!isNaN(window.pageYOffset)) {
+                      ymouse += window.pageYOffset;
+                      xmouse += window.pageXOffset;
+                    } else init.nopy = true;
+                    for (var d, i = n; i > -1; --i) {
+                      d = document.createElement('div');
+                      d.id = 'iemsg' + i;
+                      d.style.height = d.style.width = a + 'px';
+                      d.appendChild(document.createTextNode(msg[i]));
+                      oi.appendChild(d);
+                      y[i] = x[i] = Y[i] = X[i] = 0;
+                    };
+                    o.appendChild(oi);
+                    document.body.appendChild(o);
+                    setInterval(drag, 25);
+                  },
+                  ascroll = function() {
+                    ymouse += window.pageYOffset;
+                    xmouse += window.pageXOffset;
+                    window.removeEventListener('scroll', ascroll, false);
+                  };
+                o.id = 'outerCircleText';
+                o.style.fontSize = size + 'px';
+                if (window.addEventListener) {
+                  window.addEventListener('load', init, false);
+                  document.addEventListener('mouseover', mouse, false);
+                  document.addEventListener('mousemove', mouse, false);
+                  if (/Apple/.test(navigator.vendor)) window.addEventListener('scroll', ascroll, false);
+                } else if (window.attachEvent) {
+                  window.attachEvent('onload', init);
+                  document.attachEvent('onmousemove', mouse);
+                };
+              })();
+            </script>
+            <script type="text/javascript"></script>
+            <SCRIPT>
+              You have made no changes to save.
+              var width = document.body.clientWidth;
+              var height = document.body.clientHeight;
+
+              function doClickText(who, type, step, timeOut) {
+                document.getElementById(who).style.display = "none";
+                if (type == 0) {
+                  reveal('revealDiv1', step, timeOut, 0);
+                  reveal('revealDiv2', step, timeOut, 1);
+                }
+                if (type == 1) {
+                  reveal('revealDiv1', step, timeOut, 2);
+                  reveal('revealDiv2', step, timeOut, 3);
+                }
+              }
+
+              function reveal(who, step, timeOut, type) {
+                if (type == 0) var where = "top";
+                if (type == 1) var where = "bottom";
+                if (type == 2) var where = "left";
+                if (type == 3) var where = "right";
+                eval('var temp=document.getElementById(who).style.' + where);
+                temp = parseInt(temp);
+                if (type == 0 || type == 1) var checkWith = height / 2;
+                if (type == 2 || type == 3) var checkWith = width / 2;
+                if (-temp < checkWith) {
+                  temp -= step;
+                  eval('document.getElementById(who).style.' + where + '=temp;');
+                  setTimeout("reveal('" + who + "'," + step + ",'" + timeOut + "'," + type + ")", timeOut);
+                } else {
+                  document.getElementById(who).style.display = "none";
+                  document.body.scroll = "yes";
+                }
+              }
+
+              function initReveal(type, div1bg, div2bg, div1bw, div2bw, div1bc, div2bc, step, timeOut, click) {
+                if (type == 0) {
+                  var bWhere1 = "border-bottom";
+                  var bWhere2 = "border-top";
+                  var putZero1 = "top:0px; left:0px";
+                  var putZero2 = "bottom:0px; left:0px";
+                  document.write(' < div id = "revealDiv1"
+                      style = "z-index:100; display:block; position:absolute; '+putZero1+'; background:'+div1bg+' ; width:'+(width)+'; height:'+(height/2)+'; '+bWhere1+':'+div1bc+' solid '+div1bw+'px" > < /div>');
+                      document.write(' < div id = "revealDiv2"
+                        style = "z-index:100; display:block; position:absolute; '+putZero2+'; background:'+div2bg+' ; width:'+(width)+'; height:'+(height/2)+'; '+bWhere2+':'+div2bc+' solid '+div2bw+'px" > < /div>');
+                        if (!click) {
+                          reveal('revealDiv1', step, timeOut, 0);
+                          reveal('revealDiv2', step, timeOut, 1);
+                        } else {
+                          clickText(type, step, timeOut);
+                        }
+                      }
+                      if (type == 1) {
+                        var bWhere1 = "border-right";
+                        var bWhere2 = "border-left";
+                        var putZero1 = "top:0px; left:0px";
+                        var putZero2 = "top:0px; right:0px";
+                        document.write(' < div id = "revealDiv1"
+                            style = "z-index:100; display:block; position:absolute; '+putZero1+'; background:'+div1bg+' ; width:'+(width/2)+'; height:'+(height)+'; '+bWhere1+':'+div1bc+' solid '+div1bw+'px" > < /div>');
+                            document.write(' < div id = "revealDiv2"
+                              style = "z-index:100; display:block; position:absolute; '+putZero2+'; background:'+div2bg+' ; width:'+(width/2)+'; height:'+(height)+'; '+bWhere2+':'+div2bc+' solid '+div2bw+'px" > < /div>');
+                              if (!click) {
+                                reveal('revealDiv1', step, timeOut, 2);
+                                reveal('revealDiv2', step, timeOut, 3);
+                              } else {
+                                clickText(type, step, timeOut);
+                              }
+                            }
+
+                            function clickText(type, step, timeOut) {
+                              document.write(' < div id = "clickText"
+                                  style = "z-index:101; display:block; position:absolute; top:'+(height/2-clickh/2-clickb)+'; left:'+(width/2-clickw/2-clickb)+'" > < table style = "border:'+clickc+' solid '+clickb+'px; background:'+clickbg+' ;width:'+clickw+'px; height:'+clickh+'; '+clickFont+'; cursor:hand; cursor:pointer"
+                                  onclick = "doClickText(\'clickText\','+type+','+step+','+timeOut+')" > < tr > < td align = "middle" > '+clickt+' < /td> < /tr> < /table> < /div>');}}
+            </SCRIPT>
+            <SCRIPT>
+              //NhokKiZ Trolled Giang
+              var clickw = 320; // Width
+              var clickh = 30; // Height
+              var clickb = 1; // Border width
+              var clickc = "white"; // Border color
+              var clickbg = "black"; // Background color
+              var clickt = " < b > < blink > Open < /blink> < /b>"; / / Text to display
+              var clickFont = "font-family:Tahoma,arial,helvetica; font-size:11pt; font-weight:bold; color:White"; // The font style of the text
+              new initReveal(0, 'black', 'black', 5, 5, 'yellow', 'red', 3, 10, true);
+            </SCRIPT>
+          </body>
+      </html>
